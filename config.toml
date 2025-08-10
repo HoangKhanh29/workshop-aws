@@ -1,4 +1,6 @@
-# Change the default theme to be use when building the site with Hugo
+baseURL = "https://hoangkhanh29.github.io/workshop-aws/"
+languageCode = "en-us"
+title = "AWS Serverless Workshop"
 theme = "hugo-theme-learn"
 
 # For search functionality
