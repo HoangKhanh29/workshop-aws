@@ -31,6 +31,8 @@ jobs:
           sudo dpkg -i hugo_extended_0.120.0_linux-amd64.deb
       - name: Build
         run: hugo --minify
+      - name: Copy index.html
+        run: cp index.html public/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
